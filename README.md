@@ -1,85 +1,32 @@
-# Resolvendo Códigos em Python com o Github Copilot
+# Solucionando Algoritmos em Python com GitHub Copilot & Codespaces
 
-Olá!! Aqui veremos algumas resoluções de códigos em python utilizando o Github Copilot.
+## 🎯 Sobre o Projeto
+Este projeto foi desenvolvido como parte do desafio da Digital Innovation One (DIO). O objetivo principal foi explorar as capacidades do GitHub Copilot como assistente de inteligência artificial no desenvolvimento de algoritmos em Python, utilizando o ambiente de nuvem GitHub Codespaces.
 
-### Atenção ⚠️ 
+## 🛠️ Tecnologias e Ferramentas
+* **Python 3.x** - Linguagem base do projeto.
+* **GitHub Copilot** - IA para sugestão de código, refatoração e documentação.
+* **GitHub Codespaces** - Ambiente de desenvolvimento ágil e integrado na nuvem.
 
-Não tem acesso ao Github Copilot?! Não tem problema!! 
-Que tal utilizar o [ChatGPT](https://chat.openai.com/) como seu copiloto de estudos ??
+## 🧠 Como o Copilot foi Utilizado (Casos de Uso)
 
-## 1 - Concatenando Dados 🐾
+1. **Geração Automatizada de Testes Unitários:** Utilizei o comando `/tests` no Copilot Chat para gerar cenários de testes automatizados para as funções criadas.
+2. **Refatoração de Algoritmos:** O Copilot ajudou a transformar loops `for` tradicionais em *List Comprehensions*, tornando o código mais limpo e performático.
+3. **Tratamento Dinâmico de Exceções:** Ao simular entradas inválidas, a IA sugeriu validações robustas com `ValueError` e `TypeError`.
 
-Descrição:
-Vamos receber dois dados diferentes do usuário e concatena-los em uma única string?! 
+## 📈 Lições Aprendidas & Produtividade
+* **Ganho de Tempo:** O tempo de transição entre a ideia lógica e a sintaxe final caiu drasticamente.
+* **Documentação Ágil:** O Copilot facilitou a escrita de comentários técnicos (docstrings) dentro das funções Python.
+* **Atenção Crítica:** Aprendi que as sugestões da IA precisam ser validadas; em alguns momentos, pequenos ajustes manuais foram necessários para garantir a lógica exata do negócio.
 
-O que aprenderemos?
+## 🔧 Como Executar o Projeto
+Se quiser rodar este projeto localmente ou no seu próprio Codespaces:
+```bash
+# Clonar o repositório
+git clone [https://github.com/GustavoDiniz17/seu-repositorio.git](https://github.com/GustavoDiniz17/seu-repositorio.git)
 
-* Manipulação de Strings (string)
-* Concatenação
-* Entrada de dados
-* Utilização eficiente do Github Copilot
+# Entrar na pasta
+cd seu-repositorio
 
-<br>
-
-## 2 - Repetindo Textos ✏️
-
-Descrição:
-Agora vamos solicitar uma string e um número inteiro como entrada. Depois teremos que retornar a string repetida o número de vezes informado. 
-
-O que aprenderemos?
-
-* Manipulação de Strings (string)
-* Números Inteiros (int)
-* Múltiplas repetições
-* Entrada de dados
-* Aproveitar as sugestões do Github Copilot
-
-<br>
-
-## 3 - Operações Matemáticas Simples 📐
-
-Descrição:
-Vamos solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.
-
-O que aprenderemos?
-
-* Operações Matemáticas Básicas
-* Entrada de dados
-* Utilização eficiente do Github Copilot
-
-<br>
-
-## 4 - Verificando Números Pares e Ímpares 🧮
-
-Descrição: Como entrada, receba um número inteiro e verifique se ele é par ou ímpar. 
-Uma dica é: Utilize condicionais para realizar a verificação e, se possível, faça uso do Github Copilot(ou outra IA) para otimizar a estrutura do código.
-
-O que aprenderemos?
-* Utilização de condicionais em Python (if, else) para realizar verificações.
-* Introdução ao conceito de operador de módulo (%) para verificar se um número é par ou ímpar.
-* Exploração do uso de uma ferramenta de IA, como o Github Copilot, para otimizar a estrutura do código.
-
-
-<br>
-
-## 5 - Calculando Média de Notas 📚
-
-Descrição: Agora vamos calcular a média de três notas fornecidas na entrada do usuário. 
-Uma dica é: Utilize operadores aritméticos para realizar o cálculo da média.
-
-O que aprenderemos?
-* Uso de variáveis para armazenar dados fornecidos pelo usuário.
-* Aplicação de operadores aritméticos (+, /) para calcular a média de um conjunto de valores.
-* Prática na solicitação e manipulação de entrada do usuário.
-
-<br>
-
-## 6 - Verificando Palíndromos 🔄
-
-Descrição: Vamos testar se uma palavra é um palíndromo?! 
-Uma dica é: Utilize conceitos de manipulação de strings para inverter a palavra e comparar com a original.
-
-O que aprenderemos?
-* Manipulação de strings em Python, especialmente invertendo uma string.
-* Compreensão de como comparar a string original com sua versão invertida para determinar se é um palíndromo.
-* Introdução ao conceito de palíndromos e sua aplicação em problemas de programação.
+# Executar os scripts
+python src/desafio1_verificar_palindromo.py
