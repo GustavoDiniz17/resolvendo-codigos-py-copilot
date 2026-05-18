@@ -23,7 +23,7 @@ Este projeto foi desenvolvido como parte do desafio da Digital Innovation One (D
 Se quiser rodar este projeto localmente ou no seu próprio Codespaces:
 ```bash
 # Clonar o repositório
-git clone [https://github.com/GustavoDiniz17/seu-repositorio.git](https://github.com/GustavoDiniz17/seu-repositorio.git)
+git clone [https://github.com/GustavoDiniz17/resolvendo-codigos-py-copilot](https://github.com/GustavoDiniz17/resolvendo-codigos-py-copilot)
 
 # Entrar na pasta
 cd seu-repositorio
